@@ -1,1 +1,11 @@
 django==1.8.1
+
+tornado==1.4
+
+mysql-python==1.2.5
+
+django-environ==0.3.0
+
+factory-boy==2.5.2
+
+django-extension==1.5.5

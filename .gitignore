@@ -8,7 +8,7 @@
 *.pid
 *.log
 .svn
-.git
+.sqlite3
 *.egg-info
 .DS_Store
 flapweb/static/
