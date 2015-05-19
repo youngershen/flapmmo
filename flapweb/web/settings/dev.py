@@ -40,6 +40,12 @@ INIT_SUPER_USER_EMAIL = env('SUPER_EMAIL', default='younger.x.shen@gmail.com')
 # site name
 SITE_NAME = env('SITE_NAME', default='flappmmo')
 
+# wechat
+WECHAT_KEY = env('WECHAT_KEY', default='')
+WECHAT_SECRET = env('WECHAT_SECRET', default='')
+GAME_SERVER = env('GAME_SERVER', default='test.game.com')
+
+
 import time
 
 LOGGING = {
