@@ -6,5 +6,6 @@ urlpatterns = [
     # url(r'^$', 'flapweb.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    url(r'^$', include('web.game.urls', namespace='game', app_name='game')),
     url(r'^admin/', include(admin.site.urls)),
 ]
